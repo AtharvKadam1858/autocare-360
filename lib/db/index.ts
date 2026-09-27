@@ -52,7 +52,9 @@ interface DatabaseSchema {
   auditLogs: AuditLog[];
 }
 
-const DB_FILE_PATH = path.join(process.cwd(), 'data', 'autocare360.db.json');
+const DB_FILE_PATH = process.env.VERCEL
+  ? path.join('/tmp', 'autocare360.db.json')
+  : path.join(process.cwd(), 'data', 'autocare360.db.json');
 
 class DatabaseService {
   private data: DatabaseSchema;
