@@ -3,6 +3,9 @@
 > **A Production-Grade SaaS Platform for Automobile Service Center Operations**  
 > Built with Next.js 14 (App Router), TypeScript, Tailwind CSS, Lucide Icons, Recharts, and Relational Database Engine.
 
+> **🚀 Live Production Deployment**: [https://autocare-360-seven.vercel.app](https://autocare-360-seven.vercel.app)  
+> **📦 GitHub Repository**: [https://github.com/AtharvKadam1858/autocare-360](https://github.com/AtharvKadam1858/autocare-360)
+
 ---
 
 ## 1. Project Overview & Business Problem
